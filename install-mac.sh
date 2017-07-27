@@ -1,5 +1,6 @@
 #! /bin/bash
 brew install openssl libuv cmake zlib
+export OPENSSL_ROOT_DIR=/usr/local/opt/openssl/
 git clone https://github.com/uWebSockets/uWebSockets 
 cd uWebSockets
 git checkout e94b6e1
